@@ -22,21 +22,19 @@ package com.tnsif.hierarichal;
 
 		public class hierarichal {
 		    public static void main(String[] args) {
-		        // Dog object
+		        
 		        Dog d = new Dog();
-		        d.eat();   // From Animal
-		        d.bark();  // From Dog
+		        d.eat();   
+		        d.bark();  
 
-		        // Cat object
+		       
 		        Cat c = new Cat();
-		        c.eat();   // From Animal
-		        c.meow();  // From Cat
-
-		        // Cow object
+		        c.eat();  
+		        c.meow();  
 		        Cow cw = new Cow();
-		        cw.eat();  // From Animal
-		        cw.moo();  // From Cow
-		    }
+		        cw.eat();  
+		        cw.moo();  
+		}
 		}
 	
 
