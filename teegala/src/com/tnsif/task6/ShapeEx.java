@@ -7,18 +7,18 @@ public abstract class ShapeEx {
 		System.out.println("The area of Shape is:" +area);
 		}
 	}
-class Square extends ShapeEx {
+class Squ extends ShapeEx {
     private int side;
-    public Square(int side) {
+    public Squ(int side) {
         this.side = side;
     }
     public void calculateArea() {
         super.area = side * side;
         }
 }
-class Rectangle extends ShapeEx {
+class Rect extends ShapeEx {
     private int length, width;
-    public Rectangle(int length, int width) {
+    public Rect(int length, int width) {
         this.length = length;
         this.width = width;
     }
